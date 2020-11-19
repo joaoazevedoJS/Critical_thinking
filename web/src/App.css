@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+#App {
+  background: #EEF6F9;
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+#App h1, h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #2F3336;
+}
+
+#App div.content {
+  max-width: 1120px;
+  width: 100%;
+  margin: auto;
+}
+
+#App div.content main {
+  padding: 128px 0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 450px 1fr;
+  column-gap: 96px;
+
+  width: 100%;
+  min-height: calc(100vh - 300px);
+}
+
+#App div.content main img {
+  width: 100%;
+}
+
+#App div.content section.icons-section h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#App div.content section.icons-section .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 32px;
+}
