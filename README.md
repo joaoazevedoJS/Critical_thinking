@@ -1,7 +1,7 @@
 <div style="display: flex; align-items: center; margin: 0 auto; width: 100%">
   <img
     style="width: 40px; height: 40px; margin-right: 32px;" 
-    src="./web/build/favicon.png" 
+    src="./favicon.png" 
     alt="Critical_thinking" 
   />
 
